@@ -1,0 +1,34 @@
+{
+  "name": "heroicons-lookup-vue",
+  "version": "1.0.0",
+  "description": "This package makes it possible to look up Vue components from @heroicons/vue by name and size.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "prepublish": "tsc",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tobiaqs/heroicons-lookup-vue.git"
+  },
+  "keywords": [
+    "heroicons",
+    "lookup",
+    "typescript",
+    "vuejs",
+    "vue"
+  ],
+  "author": "LeanSlate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tobiaqs/heroicons-lookup-vue/issues"
+  },
+  "homepage": "https://github.com/Tobiaqs/heroicons-lookup-vue#readme",
+  "dependencies": {
+    "@heroicons/vue": "2.x"
+  },
+  "devDependencies": {
+    "typescript": "5.x"
+  }
+}
